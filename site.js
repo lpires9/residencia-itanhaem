@@ -14,7 +14,9 @@ async function carregarArtigo(id) {
 
 function formatarData(iso) {
   if (!iso) return '';
-  const [ano, mes, dia] = iso.split('-');
+  const partes = iso.split('-');
+  if (partes.length < 3) return iso; // apenas ano, ou data incompleta
+  const [ano, mes, dia] = partes;
   return `${dia}/${mes}/${ano}`;
 }
 

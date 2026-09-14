@@ -1,0 +1,84 @@
+{
+  "id": "aga-cdi-2026",
+  "titulo": "AGA Clinical Practice Update: Manejo de Infecção por Clostridioides difficile em Adultos",
+  "area": "Infectologia",
+  "fonte_titulo": "Fischer M, Vaughn BP, Peery AF, Kelly CR — AGA Clinical Practice Update on Management of Clostridioides difficile Infection in Adults: Expert Review (Clin Gastroenterol Hepatol, 2026;24:2359–2369)",
+  "fonte_url": "https://doi.org/10.1016/j.cgh.2026.05.007",
+  "data_publicacao": "2026",
+  "data_resumo": "2026-09-14",
+  "autor_resumo": "Leonardo",
+  "resumo": [
+    "Nota metodológica importante: este documento é um Clinical Practice Update – Expert Review da AGA (14 Best Practice Advice statements), não um estudo primário (RCT/coorte). Portanto, várias seções do template padrão (desenho experimental, população estudada, desfecho primário/secundário, eventos adversos formais) não se aplicam da forma clássica — o próprio artigo declara que não foram feitas revisões sistemáticas e que as recomendações não possuem classificação formal de força/qualidade de evidência. O resumo abaixo mantém a estrutura original, sinalizando “não descrito no artigo” onde aplicável.",
+    "<strong>1. Referência completa</strong> — Fischer M, Vaughn BP, Peery AF, Kelly CR. AGA Clinical Practice Update on Management of Clostridioides difficile Infection in Adults: Expert Review. Clinical Gastroenterology and Hepatology 2026;24:2359–2369. DOI: 10.1016/j.cgh.2026.05.007. (Fischer e Vaughn são co-primeiros autores.)",
+    "<strong>2. Contexto e justificativa</strong> — CDI é doença comum (~365.200 casos/ano nos EUA), frequentemente recorrente, podendo ser fatal quando grave ou fulminante. O manejo mudou rapidamente na última década (novas terapias disponíveis, outras descontinuadas), justificando atualização prática.",
+    "<strong>3. Objetivo do estudo</strong> — Fornecer orientação prática, baseada em opinião de especialistas e revisão da literatura publicada, para prevenção, diagnóstico, classificação de gravidade e tratamento de CDI em adultos (episódio inicial, recorrência e doença fulminante).",
+    "<strong>4. Desenho e métodos</strong> — Documento de expert opinion comissionado pelo AGA Institute Clinical Practice Updates Committee. Não envolveu revisão sistemática formal; por isso, as Best Practice Advice (BPA) statements não carregam classificação formal de qualidade de evidência ou força de recomendação. Passou por revisão interna do comitê e revisão externa por pares do periódico.",
+    "<strong>5. População estudada</strong> — Não se aplica no sentido de estudo primário — o documento aborda “adultos” em geral, com estratificação por: pacientes ambulatoriais vs. hospitalizados, imunocomprometidos (leve/moderado vs. grave), idosos, residentes de instituições de longa permanência. Não descrito no artigo (não é coorte com critérios de inclusão/exclusão).",
+    "<strong>6. Intervenção/exposição e comparador</strong> — Múltiplas comparações terapêuticas discutidas ao longo do texto, com base em estudos citados (não conduzidos pelos próprios autores):<br>Fidaxomicina vs. vancomicina oral (tratamento inicial e recorrência)<br>Vancomicina vs. metronidazol<br>FMT (transplante de microbiota fecal) vs. cuidado padrão em CDI grave/fulminante refratária<br>Profilaxia com vancomicina oral (OVP) vs. sem profilaxia durante antibioticoterapia sistêmica<br>Uso de IBP vs. não uso",
+    "<strong>7. Desfecho primário e desfechos secundários</strong> — Não descrito no artigo como desfecho único — trata-se de síntese narrativa. Desfechos mencionados nos estudos citados incluem: cura clínica, cura sintomática sem recorrência em 1 mês, recorrência em 8 semanas, mortalidade, eventos adversos graves.",
+    "<strong>8. Principais resultados</strong> (números, medidas de efeito, IC e valores de p preservados do texto)<br>Fidaxomicina vs. vancomicina (RCT citado, ref. 33): cura clínica não inferior — análise por intenção de tratar modificada: 88,2% vs. 85,8%; análise por protocolo: 92,1% vs. 89,8%. Valores de p não informados no texto do artigo.<br>Revisão Cochrane (ref. 34): cura sintomática sem recorrência em 1 mês — 71% com fidaxomicina vs. 61% com vancomicina; RR 1,17 (IC 95%: 1,07–1,27).<br>Redução de recorrência com fidaxomicina: citada como 6% a 11% menos eventos vs. vancomicina (fonte: diretrizes, refs. 20 e 32 — não é dado primário do próprio artigo).<br>Mortalidade em CDI fulminante: 30%–40%, mais alta em cirúrgicos ou com múltiplas comorbidades.<br>CDI fulminante: ocorre em 1%–3% de todos os casos de CDI.<br>FMT em CDI grave/fulminante refratária a antimicrobianos (guideline AGA, baseada em 5 estudos observacionais, n=647): RR de mortalidade 0,37 (IC 95%: 0,23–0,59) comparado a cuidado padrão; NNT = 4 para evitar 1 óbito; sem diferença em eventos adversos graves entre grupos.<br>Vancomicina oral supressiva prolongada: risco de recorrência sem intervenção >40% em pacientes com recorrências múltiplas; risco de recorrência após descontinuação da profilaxia >30% (ref. 47).<br>OVP (profilaxia com vancomicina) — único RCT (ref. 57): redução absoluta de 13,5% em CDI recorrente, sem significância estatística (estudo não teve poder estatístico suficiente para detectar essa diferença — o próprio texto destaca essa limitação).<br>IBP e risco de CDI recorrente: análise agrupada observacional — 24% em usuários de IBP vs. 18% em não usuários. Porém, o maior RCT (>17.000 pacientes, seguimento de 3 anos) não encontrou aumento significativo: 11 casos em usuários de IBP vs. 4 em não usuários; NNH = 1800 com pantoprazol diário. Metanálises mais recentes também não encontraram diferença significativa de risco entre IBP e placebo/bloqueador H2/inibidor de bomba de potássio.<br>Absorção sistêmica de vancomicina oral: estudo prospectivo — níveis séricos indetectáveis em 98% dos pacientes, mesmo com insuficiência renal (ref. 49), sugerindo risco de ototoxicidade negligenciável.<br>Colonização assintomática: taxas comunitárias 4%–15%; hospitalar 3%–21%; até 50% em instituições de longa permanência.<br>Transmissão intradomiciliar: risco relativo aumentado, mas risco absoluto <5%.",
+    "<strong>9. Eventos adversos</strong> — Não há seção dedicada a eventos adversos do próprio manuscrito (não é estudo primário). Menção pontual: no estudo de FMT para CDI grave/fulminante (ref. 17), sem diferença em eventos adversos graves entre FMT e cuidado padrão. Sobre vancomicina supressiva prolongada: sem emergência observada de enterococos resistentes à vancomicina (ref. 47–48).",
+    "<strong>10. Limitações</strong> — Explicitamente declaradas pelos próprios autores:<br>Ausência de revisão sistemática formal → recomendações sem classificação de força/qualidade de evidência.<br>Ausência de definição universalmente validada de gravidade de CDI (critérios baseados em consenso de especialistas, não em validação prospectiva formal).<br>Ausência de RCTs para FMT em CDI fulminante (dados observacionais apenas).<br>Dados limitados sobre segurança/eficácia de produtos comerciais de microbiota em imunocomprometidos (uma única análise post-hoc, ref. 45).<br>Falta de definição padronizada de “doença refratária ao tratamento”.<br>Evidência conflitante/limitada sobre OVP (baseada em único RCT sem poder estatístico).",
+    "<strong>11. Conclusão dos autores</strong> — Não há uma conclusão única condensada — o documento conclui através de 14 Best Practice Advice statements cobrindo prevenção, diagnóstico, classificação de gravidade, tratamento de episódio inicial (fidaxomicina preferencial, vancomicina aceitável, metronidazol contraindicado exceto em fulminante combinado), manejo de recorrências (terapias baseadas em microbiota após 2ª recorrência), manejo de doença fulminante (terapia multidisciplinar, altas doses de vancomicina + metronidazol IV ± vancomicina retal, FMT multi-dose), e medidas preventivas (sem uso rotineiro de OVP ou probióticos, reavaliação de IBP, aconselhamento sobre uso racional de antibióticos).",
+    "<strong>12. Análise crítica e aplicabilidade clínica</strong><br>Significância estatística vs. relevância clínica: o próprio artigo ilustra bem essa distinção no caso da OVP — uma redução absoluta de 13,5% é clinicamente expressiva, mas não atingiu significância estatística por falta de poder amostral; os autores corretamente evitam recomendar a prática com base nesse dado isolado, mas também não a descartam como ineficaz.<br>Ausência de significância ≠ equivalência: aplicável ao mesmo estudo de OVP — a não significância não permite concluir que OVP “não funciona”; o texto reconhece explicitamente essa limitação (“the study was not powered to detect that difference”).<br>Da mesma forma, para IBP: RCT grande sem diferença significativa, mas isso não equivale à prova definitiva de ausência de associação — metanálises subsequentes convergem para essa direção, mas dados observacionais mais antigos mostravam associação.<br>Recomendações fortemente baseadas em opinião de expert, não em revisão sistemática graduada (GRADE) — aplicabilidade deve considerar isso ao ponderar força de implementação na prática (ex.: BPA 8, 9, 11 refletem prática dos próprios autores/experiência pessoal, explicitamente declarado como “in the authors' experience” ou “in our opinion”).<br>Documento é altamente aplicável à prática de terapia intensiva/gastroenterologia dado o foco em CDI grave/fulminante, mas decisões de maior impacto (ex. indicação de FMT em fulminante) apoiam-se em dados observacionais, não RCTs.",
+    "<strong>13. Cinco mensagens principais para uma aula</strong><br>Fidaxomicina é a terapia de primeira linha preferencial para CDI não fulminante (menor recorrência: RR 1,17; IC 95% 1,07–1,27), mas vancomicina permanece aceitável por razões práticas; metronidazol está restrito à combinação em doença fulminante.<br>Classificar gravidade (não grave / grave / fulminante) direciona tratamento: leucócitos >15.000/µL e/ou creatinina >1,5x basal = grave; choque, íleo ou megacólon = fulminante (mortalidade 30–40%).<br>Terapias baseadas em microbiota (FMT ou produtos aprovados pela FDA) devem ser oferecidas após a 2ª recorrência (3º episódio), podendo ser antecipadas em casos graves ou de alto risco.<br>Em CDI fulminante refratária, FMT multi-dose associa-se a redução de mortalidade (RR 0,37; IC 95% 0,23–0,59; NNT=4), mas essa evidência é observacional, não randomizada.<br>Não realizar teste de cura rotineiro pós-tratamento; não usar OVP ou probióticos como prevenção primária/secundária rotineira, dada evidência insuficiente/não significativa.",
+    "<strong>Discrepâncias identificadas</strong>: não há tabelas ou figuras com dados numéricos conflitantes com o texto — as Figuras 1 e 2 (algoritmos) e a Tabela 1 (orientações domiciliares) são consistentes com o texto corrido, sem achados divergentes identificáveis no material fornecido.<br><br><strong>Síntese final</strong>: este documento não é um estudo experimental, mas uma atualização de prática clínica baseada em opinião de especialistas e revisão não sistemática da literatura; ele demonstrou — a partir de evidências citadas de terceiros — que fidaxomicina supera vancomicina em desfechos de recorrência, que FMT reduz mortalidade em CDI grave/fulminante refratária (dados observacionais), e que estratégias como classificação de gravidade e manejo multidisciplinar da doença fulminante são centrais ao cuidado; ele não demonstrou (nem pretendeu demonstrar) eficácia robusta e estatisticamente significativa para intervenções como profilaxia com vancomicina oral ou associação causal definitiva entre IBP e CDI, e não substitui revisões sistemáticas formais graduadas por qualidade de evidência; sua relevância clínica está em consolidar, de forma prática e atualizada, um roteiro de decisão para prevenção, diagnóstico, estratificação de gravidade e tratamento de CDI — de alta utilidade para o ensino de residentes em terapia intensiva/clínica médica, desde que a limitação metodológica (ausência de classificação formal de evidência) seja explicitada."
+  ],
+  "questoes": [
+    {
+      "pergunta": "Segundo o AGA Clinical Practice Update, qual é a terapia de primeira linha preferencial para o episódio inicial de CDI não fulminante?",
+      "alternativas": [
+        "Metronidazol oral",
+        "Vancomicina oral",
+        "Fidaxomicina",
+        "Rifaximina"
+      ],
+      "correta": 2,
+      "explicacao": "Fidaxomicina é preferencial por menor recorrência (RR 1,17; IC 95% 1,07–1,27, revisão Cochrane) frente à vancomicina. Vancomicina permanece aceitável por razões práticas; metronidazol fica restrito à combinação em doença fulminante."
+    },
+    {
+      "pergunta": "Qual achado classifica um caso de CDI como fulminante?",
+      "alternativas": [
+        "Leucócitos acima de 15.000/µL isoladamente",
+        "Choque, íleo ou megacólon",
+        "Mais de 3 evacuações diarreicas ao dia",
+        "Colonização assintomática por C. difficile"
+      ],
+      "correta": 1,
+      "explicacao": "Choque, íleo ou megacólon definem CDI fulminante, forma com mortalidade de 30–40%. Leucocitose >15.000 e creatinina 1,5x o basal definem CDI grave (não fulminante)."
+    },
+    {
+      "pergunta": "A partir de qual momento a terapia baseada em microbiota (FMT ou produto aprovado) deve ser oferecida na CDI recorrente?",
+      "alternativas": [
+        "Já no episódio inicial",
+        "Após a 1ª recorrência (2º episódio)",
+        "Após a 2ª recorrência (3º episódio)",
+        "Somente em caso de CDI fulminante"
+      ],
+      "correta": 2,
+      "explicacao": "O documento recomenda oferecer terapia baseada em microbiota a partir da 2ª recorrência (ou seja, no 3º episódio), podendo ser antecipada em casos graves ou de alto risco."
+    },
+    {
+      "pergunta": "O que o maior RCT citado (>17.000 pacientes, 3 anos de seguimento) mostrou sobre uso de IBP e risco de CDI recorrente?",
+      "alternativas": [
+        "Aumento estatisticamente significativo do risco",
+        "Não houve aumento estatisticamente significativo do risco",
+        "Redução significativa do risco",
+        "O desfecho não foi avaliado nesse estudo"
+      ],
+      "correta": 1,
+      "explicacao": "Apesar de uma metanálise observacional sugerir associação (24% vs. 18%), o maior RCT (11 vs. 4 casos; NNH 1800) não encontrou aumento significativo — achado reforçado por metanálises mais recentes."
+    },
+    {
+      "pergunta": "Qual foi o resultado do único RCT sobre profilaxia com vancomicina oral (OVP) para prevenir recorrência de CDI?",
+      "alternativas": [
+        "Redução absoluta de 13,5%, sem significância estatística por falta de poder amostral",
+        "Redução estatisticamente significativa de cerca de 30%",
+        "Aumento do risco de recorrência",
+        "Nenhuma diferença numérica entre os grupos"
+      ],
+      "correta": 0,
+      "explicacao": "O RCT mostrou redução absoluta de 13,5% na recorrência, mas sem significância estatística — o próprio estudo reconhece não ter poder amostral suficiente para detectar essa diferença, o que não equivale a concluir que a OVP é ineficaz."
+    }
+  ]
+}
