@@ -1,0 +1,47 @@
+{
+  "id": "exemplo-artigo",
+  "titulo": "Título do artigo em português",
+  "area": "Sepse",
+  "fonte_titulo": "Nome do artigo original e do periódico",
+  "fonte_url": "https://exemplo.com/artigo-original",
+  "data_publicacao": "2026-01-10",
+  "data_resumo": "2026-09-14",
+  "autor_resumo": "Nome do residente",
+  "resumo": [
+    "Primeiro parágrafo do resumo — contexto e pergunta clínica do artigo.",
+    "Segundo parágrafo — principais achados e método do estudo.",
+    "Terceiro parágrafo — o que muda na prática a partir desse artigo."
+  ],
+  "questoes": [
+    {
+      "pergunta": "Pergunta 1 sobre o artigo?",
+      "alternativas": ["Alternativa A", "Alternativa B", "Alternativa C", "Alternativa D"],
+      "correta": 0,
+      "explicacao": "Por que essa é a resposta correta, com base no artigo."
+    },
+    {
+      "pergunta": "Pergunta 2 sobre o artigo?",
+      "alternativas": ["Alternativa A", "Alternativa B", "Alternativa C", "Alternativa D"],
+      "correta": 1,
+      "explicacao": "Por que essa é a resposta correta, com base no artigo."
+    },
+    {
+      "pergunta": "Pergunta 3 sobre o artigo?",
+      "alternativas": ["Alternativa A", "Alternativa B", "Alternativa C", "Alternativa D"],
+      "correta": 2,
+      "explicacao": "Por que essa é a resposta correta, com base no artigo."
+    },
+    {
+      "pergunta": "Pergunta 4 sobre o artigo?",
+      "alternativas": ["Alternativa A", "Alternativa B", "Alternativa C", "Alternativa D"],
+      "correta": 3,
+      "explicacao": "Por que essa é a resposta correta, com base no artigo."
+    },
+    {
+      "pergunta": "Pergunta 5 sobre o artigo?",
+      "alternativas": ["Alternativa A", "Alternativa B", "Alternativa C", "Alternativa D"],
+      "correta": 0,
+      "explicacao": "Por que essa é a resposta correta, com base no artigo."
+    }
+  ]
+}

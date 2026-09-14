@@ -1,0 +1,9 @@
+[
+  {
+    "id": "exemplo-artigo",
+    "titulo": "Título do artigo em português",
+    "area": "Sepse",
+    "data_resumo": "2026-09-14",
+    "autor_resumo": "Nome do residente"
+  }
+]
