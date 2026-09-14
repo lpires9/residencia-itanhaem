@@ -158,6 +158,21 @@ h1, h2, h3 {
   color: var(--slate);
 }
 
+/* Sobre o hospital */
+
+.about {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 8px;
+}
+
+.about-body p {
+  max-width: 68ch;
+  color: var(--ink);
+  font-size: 1.05rem;
+}
+
+.about-body p + p { margin-top: 18px; }
+
 /* Section shared */
 
 main { max-width: 700px; margin: 0 auto; padding: 0 24px; }
