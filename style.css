@@ -458,6 +458,60 @@ main { max-width: 700px; margin: 0 auto; padding: 0 24px; }
 .escala-risco-alto { color: var(--clay); font-weight: 600; }
 .escala-risco-baixo { color: var(--teal); font-weight: 600; }
 
+.escala-secao {
+  font-family: var(--serif);
+  font-weight: 600;
+  color: var(--clay);
+  font-size: 0.95rem;
+  margin: 32px 0 4px;
+}
+
+.escala-offset {
+  font-size: 0.85rem;
+  color: var(--slate);
+  font-weight: 400;
+}
+
+/* Menu de escores */
+
+.score-menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding-bottom: 56px;
+}
+
+@media (max-width: 560px) {
+  .score-menu { grid-template-columns: 1fr; }
+}
+
+.score-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--white);
+  color: var(--ink);
+}
+
+.score-card:hover {
+  border-color: var(--teal);
+  text-decoration: none;
+}
+
+.score-card-nome {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.score-card-desc {
+  color: var(--slate);
+  font-size: 0.9rem;
+}
+
 /* Team */
 
 .team { padding-bottom: 72px; }

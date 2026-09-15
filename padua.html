@@ -3,8 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Utilitários — Acervo Itanhaém</title>
-<meta name="description" content="Calculadoras de escore da residência do Hospital Regional de Itanhaém Jorge Rossmann.">
+<title>PADUA — Acervo Itanhaém</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -33,33 +32,24 @@
 
 <main>
   <section class="section-head">
-    <h1>Utilitários</h1>
-    <p class="section-note">Escolha o escore. Cada um abre na própria página, clique nas opções, sem digitar nada.</p>
+    <p class="section-note"><a href="utilitarios.html">← Utilitários</a></p>
+    <h1>PADUA — risco de TEV</h1>
+    <p class="section-note">Marque os itens presentes no paciente. Pontuação ≥ 4 = alto risco (indica profilaxia).</p>
   </section>
 
-  <section class="score-menu">
-    <a class="score-card" href="sofa.html">
-      <span class="score-card-nome">SOFA</span>
-      <span class="score-card-desc">Disfunção orgânica — 6 domínios</span>
-    </a>
-    <a class="score-card" href="padua.html">
-      <span class="score-card-nome">PADUA</span>
-      <span class="score-card-desc">Risco de TEV — 11 itens</span>
-    </a>
-    <a class="score-card" href="saps3.html">
-      <span class="score-card-nome">SAPS 3</span>
-      <span class="score-card-desc">Mortalidade na admissão — 3 blocos</span>
-    </a>
-    <a class="score-card" href="improve-bleeding.html">
-      <span class="score-card-nome">IMPROVE Bleeding</span>
-      <span class="score-card-desc">Risco de sangramento — profilaxia de TEV</span>
-    </a>
+  <section class="calculadora-bloco" style="border-bottom:none;">
+    <div id="padua-calc"></div>
   </section>
 </main>
 
 <footer class="site-footer">
   <p>Hospital Regional de Itanhaém "Jorge Rossmann" — Itanhaém, SP</p>
 </footer>
+
+<script src="assets/calculadoras.js"></script>
+<script>
+  renderEscalaChecklist(PADUA_ITENS, document.getElementById('padua-calc'), 4);
+</script>
 
 </body>
 </html>
