@@ -60,7 +60,12 @@
             · artigo original em ${formatarData(artigo.data_publicacao)}
           </p>
           <div class="article-body">
-            ${artigo.resumo.map(p => `<p>${p}</p>`).join('')}
+            ${artigo.resumo.map(p => {
+              const trimmed = p.trim();
+              const isBlock = trimmed.startsWith('<table') || trimmed.startsWith('<blockquote') || trimmed.startsWith('<h3');
+              if (trimmed.startsWith('<table')) return `<div class="table-scroll">${p}</div>`;
+              return isBlock ? p : `<p>${p}</p>`;
+            }).join('')}
           </div>
           <p><a href="${artigo.fonte_url}" target="_blank" rel="noopener">Ler o artigo original — ${artigo.fonte_titulo}</a></p>
         </article>

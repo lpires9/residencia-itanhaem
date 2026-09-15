@@ -269,6 +269,55 @@ main { max-width: 700px; margin: 0 auto; padding: 0 24px; }
   font-size: 1.05rem;
 }
 
+.article-body h3 {
+  font-size: 1.15rem;
+  margin: 32px 0 12px;
+}
+
+.article-body blockquote {
+  margin: 20px 0;
+  padding: 4px 20px;
+  border-left: 3px solid var(--teal);
+  background: #E4EFEE;
+  color: var(--slate);
+  font-size: 0.95rem;
+}
+
+.article-body blockquote p { margin: 0; max-width: none; }
+
+.table-scroll {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.article-body table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  font-size: 0.85rem;
+  min-width: 100%;
+}
+
+.article-body th,
+.article-body td {
+  padding: 8px 10px;
+  border-radius: 3px;
+  text-align: left;
+  vertical-align: top;
+  max-width: 260px;
+}
+
+.article-body th {
+  background: #E4EFEE;
+  color: var(--ink);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.article-body td {
+  background: var(--white);
+  border: 1px solid var(--line);
+}
+
 /* Quiz */
 
 .quiz-section { padding-bottom: 72px; }
