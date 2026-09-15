@@ -342,6 +342,105 @@ main { max-width: 700px; margin: 0 auto; padding: 0 24px; }
   margin: 0 0 20px;
 }
 
+/* Calculadoras */
+
+.calculadora-bloco {
+  padding: 36px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.calculadora-bloco h2 {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+
+.calculadora-em-breve {
+  opacity: 0.6;
+}
+
+.escala-grupo { margin: 20px 0; }
+
+.escala-grupo-titulo {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  margin: 0 0 8px;
+}
+
+.escala-grupo-unidade {
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--slate);
+  margin-left: 8px;
+}
+
+.escala-opcoes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.escala-opcao {
+  text-align: left;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
+.escala-opcao:hover { border-color: var(--teal); }
+
+.escala-opcao-selecionada {
+  border-color: var(--teal);
+  background: #E4EFEE;
+  font-weight: 500;
+}
+
+.escala-total {
+  margin-top: 20px;
+  font-family: var(--serif);
+  font-size: 1.1rem;
+}
+
+.escala-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  text-align: left;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
+.escala-item:hover { border-color: var(--teal); }
+
+.escala-item-pontos {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--slate);
+  flex-shrink: 0;
+}
+
+.escala-item-selecionado {
+  border-color: var(--teal);
+  background: #E4EFEE;
+}
+
+.escala-risco-alto { color: var(--clay); font-weight: 600; }
+.escala-risco-baixo { color: var(--teal); font-weight: 600; }
+
 /* Team */
 
 .team { padding-bottom: 72px; }
