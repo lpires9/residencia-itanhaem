@@ -1,0 +1,255 @@
+{
+  "id": "tep-agudo-2026",
+  "titulo": "Diretriz 2026 AHA/ACC e colaboradores — Avaliação e Manejo do Tromboembolismo Pulmonar Agudo em Adultos",
+  "area": "Terapia Intensiva",
+  "fonte_titulo": "Creager MA, Barnes GD, Giri J, et al. 2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for the Evaluation and Management of Acute Pulmonary Embolism in Adults (Circulation, 2026;153:e977–e1051)",
+  "fonte_url": "https://doi.org/10.1161/CIR.0000000000001415",
+  "data_publicacao": "2026-03-24",
+  "data_resumo": "2026-09-15",
+  "autor_resumo": "Leonardo",
+  "resumo": [
+    "Nota metodológica prévia: este documento não é um estudo primário (ensaio clínico ou observacional), mas uma diretriz de prática clínica de 75 páginas, que sintetiza evidências de múltiplos estudos para gerar recomendações graduadas (Classe de Recomendação — COR — × Nível de Evidência — LOE). Por isso, os itens do modelo padrão (desenho, população, intervenção/comparador, desfecho primário/secundário, eventos adversos) foram adaptados abaixo para refletir a estrutura real do documento.",
+    "<strong>1. Referência completa</strong> — Creager MA, Barnes GD, Giri J, et al. 2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for the Evaluation and Management of Acute Pulmonary Embolism in Adults: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2026;153:e977–e1051. DOI: 10.1161/CIR.0000000000001415. Publicado em 24 de março de 2026. Diretriz de novo (não é atualização de uma diretriz prévia específica sobre TEP agudo), desenvolvida em colaboração com/endossada por ACCP, ACEP, CHEST, SCAI, SHM, SIR, SVM e SVN.",
+    "<strong>2. Contexto e justificativa</strong> — O documento se situa na linhagem da classificação da AHA de 2011 (baixo risco, submassivo, maciço) e da estratificação da ESC de 2019 (baixo risco, risco intermediário-baixo, risco intermediário-alto, alto risco). A justificativa para uma nova diretriz é dupla: heterogeneidade de desfechos dentro das categorias de risco existentes, com necessidade de reconhecer estados de \"falência cardiopulmonar iminente\" (pré-choque) e apresentações dominadas por comprometimento respiratório; e necessidade de um sistema mais granular que integre parâmetros clínicos, laboratoriais e de imagem. A revisão de literatura cobriu MEDLINE, EMBASE, Cochrane Library e outras bases, de fevereiro a outubro de 2024, com estudos-chave adicionais selecionados pelo comitê até abril de 2025.",
+    "<strong>3. Objetivo da diretriz</strong> — Fornecer recomendações abrangentes, baseadas em evidência e centradas no paciente, para avaliação, manejo e seguimento de pacientes adultos (≥18 anos) com TEP agudo, desde o início dos sintomas até o seguimento clínico. Um objetivo central é introduzir o sistema \"AHA/ACC Acute Pulmonary Embolism Clinical Categories\", buscando maior precisão na classificação de gravidade, avaliação prognóstica e decisão terapêutica. Fora do escopo: profilaxia primária de TEV, manejo isolado de TVP (exceto quando associada a TEP agudo), e manejo de doença tromboembólica pulmonar crônica já estabelecida.",
+    "<strong>4. Desenho e métodos</strong> — Diretriz de prática clínica de novo, elaborada por comitê multidisciplinar (cardiologistas gerais e intervencionistas, especialistas em imagem, intensivistas, cirurgiões cardiotorácicos, enfermeiros de prática avançada, farmacêuticos clínicos, especialistas em medicina vascular, hematologistas, pneumologistas, emergencistas e representantes de pacientes). Sistema de graduação padrão ACC/AHA: Classe de Recomendação (COR 1, 2a, 2b, 3-Harm, 3-No Benefit) × Nível de Evidência (LOE A, B-R, B-NR, C-LD, C-EO), atualizado em dezembro de 2024. Revisão por pares de comitê nomeado pelas sociedades envolvidas, com relações com a indústria declaradas.",
+    "<strong>5. População-alvo</strong> — Pacientes adultos (≥18 anos) com TEP agudo, do TEP assintomático incidental até TEP com falência cardiopulmonar e parada cardíaca. Populações especiais endereçadas: gestantes, lactantes, obesidade (incluindo classe III), doença renal crônica estágios 2–5 (incluindo diálise), hepatopatia crônica (Child-Pugh A/B/C), síndrome antifosfolípide trombótica, tumores cerebrais primários/metastáticos, câncer ativo.",
+    "<strong>6. Intervenção/exposição e comparador</strong> — A diretriz cobre múltiplas comparações ao longo do texto: anticoagulação parenteral inicial (HBPM vs. HNF); anticoagulação oral (DOAC vs. antagonista da vitamina K); filtro de veia cava inferior (recuperável vs. permanente; filtro + anticoagulação vs. anticoagulação isolada); terapias avançadas (trombólise sistêmica, trombólise dirigida por cateter, trombectomia mecânica e embolectomia cirúrgica, cada uma frente à anticoagulação isolada e entre si); duração da anticoagulação (fase inicial de 3–6 meses vs. estendida; dose plena vs. reduzida na fase estendida); e estratificação de risco (PESI, sPESI, Hestia, Bova vs. NEWS/NEWS2).",
+    "<strong>7. Desfechos considerados</strong> — Não há desfecho primário único. Os desfechos recorrentes ao longo das recomendações são: mortalidade por todas as causas e relacionada a TEP; recorrência de TEV/TEP; deterioração clínica precoce; sangramento maior e hemorragia intracraniana; disfunção/recuperação do ventrículo direito; qualidade de vida e capacidade funcional em longo prazo; e desenvolvimento de doença tromboembólica pulmonar crônica (CTEPD) e hipertensão pulmonar tromboembólica crônica (CTEPH).",
+    "<strong>8.1 Novo sistema de classificação — AHA/ACC Acute PE Clinical Categories</strong> — Cinco categorias com subcategorias 1–3 e modificador respiratório \"R\": A = TEP assintomático/incidental; B = TEP sintomático de baixo risco (PESI ≤85, sPESI <1, Hestia <1; B1 subsegmentar, B2 segmentar ou mais proximal); C = TEP sintomático de risco aumentado (PESI >85, sPESI ≥1, Hestia ≥1); D = pré-falência cardiopulmonar/choque normotensivo (D1 hipotensão transitória sem hipoperfusão, D2 com marcador de hipoperfusão/disfunção de órgão-alvo); E = falência cardiopulmonar (E1 compatível com SCAI estágio C; E2 choque cardiogênico refratário ou PCR sem RCE após 30 min). O modificador R indica necessidade de suporte respiratório.",
+    "<strong>8.2 Estratificação de risco clínico</strong> — Categorias A/B: uso de Hestia, PESI e/ou sPESI (COR 1, LOE B-R). Categorias C/D hemodinamicamente estáveis: escore específico para TEP (COR 2a, LOE B-NR). NEWS/NEWS2 como alternativa (COR 2b, LOE B-NR). Os autores reconhecem que nenhum escore atual prediz fortemente deterioração clínica em pacientes hemodinamicamente estáveis.",
+    "<strong>8.3 Biomarcadores e imagem de VD</strong> — Troponina elevada: metanálise de 46 estudos (n=10.842), OR 4,33 para mortalidade global. BNP elevado: 12 estudos (n=868), OR 6,57 para mortalidade precoce por todas as causas. Lactato elevado: 6 estudos (n=1.706), OR 5,13 (mortalidade geral) e OR 9,05 (mortalidade relacionada a TEP). Disfunção de VD ao ecocardiograma: 55 estudos (n=17.090), OR 2,0 (IC95% 1,66–2,40) para mortalidade geral e OR 4,01 (IC95% 2,79–5,78) para mortalidade relacionada a TEP. Razão VD/VE ≥1,0 na angio-TC: sensibilidade 85%, especificidade 72%. Quantificação de carga trombótica angiográfica isolada não é recomendada para estratificação de curto prazo (COR 3: No Benefit, LOE B-NR) — estudos mostraram resultados inconsistentes.",
+    "<strong>8.4 Anticoagulação</strong> — HBPM preferida sobre HNF para anticoagulação parenteral inicial nas categorias C1–E1 (COR 1, LOE B-R). DOAC preferido sobre antagonista da vitamina K para a maioria dos pacientes (COR 1, LOE B-R). DRC estágio 2–3: DOAC preferido (COR 1, LOE A); estágio 4–5/hemodiálise: incerto se apixabana é superior a VKA (COR 2b, LOE B-NR). Síndrome antifosfolípide trombótica: VKA preferida sobre DOAC (COR 1, LOE A). Gestação: HBPM ou HNF (COR 1, LOE C-LD); DOACs e varfarina são potencialmente prejudiciais (COR 3: Harm). Monitorização de anti-Xa em HBPM em dose padrão não é indicada na maioria dos pacientes (COR 3: No Benefit, LOE A).",
+    "<strong>8.5 Terapias avançadas</strong> — Pela Tabela 7 da diretriz, a força de recomendação varia por categoria clínica: nas categorias A–C1, trombólise sistêmica, trombólise dirigida por cateter (CDL), trombectomia mecânica (MT) e cirurgia são 3-Harm/3-No Benefit; em C2–C3, a maioria fica incerta (2b); em D1–D2, passam a 2b (pode considerar); em E1, trombólise sistêmica, CDL, MT e cirurgia sobem para 2a; em E2, apenas trombólise sistêmica e CDL mantêm 2a, com cirurgia em 3-No Benefit. No estudo PEITHO (n=1.006, tenecteplase + heparina vs. heparina isolada), a trombólise reduziu colapso cardiovascular mas aumentou sangramento maior (6,3% vs. 1,2%, p<0,001) e AVC (2,4% vs. 0,2%, p=0,003). Uma metanálise de 16 ensaios (n=2.115) mostrou redução de mortalidade com trombólise (OR 0,53; IC95% 0,32–0,88; NNT=59), às custas de mais hemorragia intracraniana (OR 4,6; IC95% 1,8–12,0; NNH=78); em TEP submassivo especificamente, o efeito sobre mortalidade perdeu significância (OR 0,61; IC95% 0,37–1,02). O estudo FLAME (MT, n=115, categoria E1) mostrou desfecho composto de 17% vs. desempenho pré-especificado de 32% (p<0,01), com mortalidade intra-hospitalar de 1,9% no braço MT vs. 29,5% no braço contexto. O registro FLASH (n=1.000) mostrou eventos adversos maiores em 1,8% e mortalidade em 30 dias de 0,8%. O estudo PEERLESS (n=550, MT vs. CDL) não encontrou diferença significativa em mortalidade de 30 dias ou sangramento maior entre os grupos. Embolectomia cirúrgica tem dados essencialmente de coortes retrospectivas, sem RCT comparativo, com mortalidade de 1–15%. Sobre filtro de veia cava inferior: PREPIC mostrou redução de recorrência de TEP mas aumento de TVP/trombose de veia cava, sem benefício de sobrevida; PREPIC2 não mostrou benefício adicional em pacientes já anticoagulados; uma metanálise mostrou redução de TEP recorrente de ~50% às custas de aumento de ~70% no risco de TVP, sem efeito sobre mortalidade geral.",
+    "<strong>8.6 Anticoagulação estendida</strong> — Para o primeiro TEP sem fator de risco reversível maior, continuar a anticoagulação além de 3–6 meses é benéfico (COR 1, LOE A): recorrência sem fator identificável é de ~30–40% em 10 anos sem anticoagulação, e um RCT (n=281) mostrou redução relativa de risco de 80% com anticoagulação estendida, sem aumento significativo de sangramento maior. O estudo RENOVE (n=2.768) comparou dose reduzida vs. dose plena na fase estendida: recorrência de TEV de 2,2% vs. 1,8%, e sangramento maior/clinicamente relevante menor com dose reduzida (9,9% vs. 15,2%; HR 0,61; IC95% 0,48–0,79) — o intervalo de confiança relatado no artigo original para o HR de recorrência aparenta ter um erro de digitação, sinalizado mas não corrigido neste resumo. O estudo API-CAT em câncer (n=1.766) mostrou recorrência de TEV semelhante entre doses (2,1% vs. 2,8%; HR 0,76, não significativo) e sangramento clinicamente relevante menor com dose reduzida (12,1% vs. 15,6%; HR 0,75; IC95% 0,58–0,97).",
+    "<strong>8.7 CTEPD/CTEPH e seguimento</strong> — A prevalência de CTEPH (CTEPD com hipertensão pulmonar) após TEP agudo é de ~3%; a prevalência de CTEPD sem HP é desconhecida, mas considerada ao menos igualmente prevalente. O estudo FOCUS (n=880) mostrou tempo mediano até o diagnóstico de CTEPD com HP de 129 dias. A diretriz recomenda avaliação diagnóstica para CTEPD em pacientes com dispneia ou limitação funcional persistente após ≥3 meses de anticoagulação terapêutica (COR 1, LOE B-NR).",
+    "<strong>9. Eventos adversos</strong> — Não há uma tabela consolidada única (não é um RCT). Por intervenção: trombólise sistêmica com sangramento maior/HIC consistentemente aumentado; MT com sangramento maior de 11,3% no braço MT do FLAME vs. 24,6% no braço contexto; filtro de VCI com aumento de TVP/trombose de VCI (~70% relativo) sem benefício de mortalidade, além de complicações tardias como migração, fratura, perfuração e dificuldade de remoção após permanência prolongada; DOACs associados a menor risco de sangramento maior (especialmente HIC) e menor mortalidade frente a VKA; DOACs e varfarina classificados como potencialmente prejudiciais na gestação.",
+    "<strong>10. Limitações</strong> — Reconhecidas pelos próprios autores: o novo sistema de classificação (Categorias A–E) ainda não foi validado prospectivamente, sendo uma proposta de consenso; nenhum escore atual prediz bem deterioração clínica em pacientes estáveis; a maioria dos estudos sobre CDL é observacional; ausência de RCTs comparando MT com trombólise sistêmica em TEP de alto risco; ausência de RCT para embolectomia cirúrgica versus outras modalidades; e lacunas explícitas quanto à validação do novo sistema, necessidade de anticoagulantes com menor risco de sangramento, algoritmos para escolha entre terapias avançadas, e melhor caracterização de subtipos de CTEPD.",
+    "<strong>11. Conclusão dos autores</strong> — O manejo do TEP agudo deve ser guiado por um sistema de classificação mais granular (Categorias AHA/ACC A–E) que integra fatores clínicos, hemodinâmicos, respiratórios, biomarcadores e imagem de VD. A anticoagulação permanece a base do tratamento, com DOACs preferidos para a maioria; terapias avançadas têm papel definido principalmente nas categorias de maior gravidade (D–E), com equilíbrio delicado entre benefício e risco de sangramento. Os autores recomendam validação prospectiva do novo sistema e estudos randomizados adicionais para terapias avançadas.",
+    "<strong>12. Análise crítica e aplicabilidade clínica</strong> — O documento ilustra bem a distinção entre significância estatística e relevância clínica: na trombólise sistêmica em TEP submassivo, a redução de mortalidade perdeu significância (OR 0,61; IC95% 0,37–1,02), e os autores descrevem o papel da trombólise como \"menos certo\" nessa subpopulação — ausência de significância não equivale a equivalência terapêutica, apenas a incerteza quanto ao efeito. O mesmo vale para o PEERLESS (MT vs. CDL): a ausência de diferença estatisticamente significativa não implica equivalência clínica comprovada. Várias análises citadas são post-hoc ou de subgrupo (ex.: metanálises em obesidade extrema majoritariamente post-hoc de ensaios de fase III), o que limita a força da evidência. Uma discrepância identificada: o IC95% relatado para o HR de recorrência no estudo RENOVE é numericamente incoerente com o valor pontual, provável erro de digitação no artigo original, a conferir na publicação original antes de uso didático. Para a prática de UTI, os pontos de maior impacto direto são: uso preferencial de HBPM parenteral (exceto contraindicações renais graves); reconhecimento de que o benefício das terapias avançadas se concentra nas categorias D2–E1; e papel limitado e não estabelecido do filtro de VCI mesmo em pacientes graves sob terapia avançada.",
+    "<strong>13. Cinco mensagens principais para uma aula</strong> — O novo sistema AHA/ACC (Categorias A–E) substitui a antiga tríade baixo risco/submassivo/maciço, incorporando biomarcadores, disfunção de VD e modificador respiratório, mas ainda carece de validação prospectiva. Anticoagulação isolada permanece suficiente para a grande maioria dos pacientes (A–C1); terapias avançadas só têm recomendação mais consistente nas categorias D1–E2. DOACs são preferidos sobre VKA na maioria dos cenários, exceto síndrome antifosfolípide trombótica, gestação/lactação e insuficiência renal grave/diálise. Filtro de veia cava inferior não deve ser usado rotineiramente mesmo em pacientes graves — reduz recorrência de TEP às custas de mais TVP, sem benefício de mortalidade. E, de forma transversal: significância estatística não é o mesmo que equivalência clínica — várias recomendações se apoiam em achados não significativos que os autores classificam como \"incertos\", não como \"sem diferença comprovada\".",
+    "<strong>Síntese final</strong> — Este documento demonstrou a construção e a lógica de um novo sistema de classificação de gravidade do TEP agudo, sintetizando evidências de dezenas de estudos primários — de ensaios de trombólise (PEITHO) e trombectomia mecânica (FLAME, FLASH, FLARE, EXTRACT-PE, PEERLESS) a estudos de anticoagulação estendida (RENOVE, API-CAT) e filtro de veia cava (PREPIC, PREPIC2, PRESERVE) — para gerar recomendações graduadas por força e qualidade de evidência. Não demonstrou a validade prospectiva do próprio sistema de classificação proposto, nem resolveu definitivamente questões como a superioridade entre CDL e MT, o papel ideal do filtro de VCI em pacientes graves, ou o benefício real da trombólise sistêmica em TEP submassivo. Sua relevância clínica é alta como ferramenta de organização diagnóstico-terapêutica e linguagem comum entre especialidades no manejo do TEP agudo, mas parte substancial das recomendações repousa sobre evidência não randomizada ou extrapolações de subgrupo, exigindo julgamento clínico individualizado — especialmente nas categorias de gravidade intermediária (C2–D2)."
+  ],
+  "questoes": [
+    {
+      "pergunta": "Paciente assintomático em acompanhamento oncológico por câncer de pulmão realiza TC de estadiamento e é encontrado TEP subsegmentar em lobo inferior esquerdo, sem qualquer sintoma relacionado. Qual categoria AHA/ACC melhor descreve esse caso?",
+      "alternativas": [
+        "Categoria A",
+        "Categoria C1",
+        "Categoria D1",
+        "Categoria E1"
+      ],
+      "correta": 0,
+      "explicacao": "Categoria A é justamente o exemplo dado pela diretriz: TEP assintomático e incidental, tipicamente achado em TC de estadiamento oncológico."
+    },
+    {
+      "pergunta": "Quantas categorias principais compõem o sistema \"AHA/ACC Acute Pulmonary Embolism Clinical Categories\"?",
+      "alternativas": [
+        "3",
+        "5 (A a E)",
+        "4",
+        "6"
+      ],
+      "correta": 1,
+      "explicacao": "O sistema tem 5 categorias principais (A a E), com subcategorias 1–3 e um modificador respiratório (R)."
+    },
+    {
+      "pergunta": "Paciente com dor pleurítica após artroplastia de quadril, sPESI = 0, é diagnosticado com TEP segmentar em lobo inferior direito, sem aumento de ventrículo direito na TC. Qual categoria se aplica?",
+      "alternativas": [
+        "Categoria A1",
+        "Categoria B1",
+        "Categoria C1",
+        "Categoria B2"
+      ],
+      "correta": 3,
+      "explicacao": "Esse é o exemplo da diretriz para Categoria B2: TEP segmentar ou mais proximal, sintomático, com baixo risco por escore validado (sPESI 0)."
+    },
+    {
+      "pergunta": "Segundo a diretriz, qual anticoagulante parenteral é recomendado para o início do tratamento do TEP agudo?",
+      "alternativas": [
+        "Heparina de baixo peso molecular (HBPM), sobre heparina não fracionada",
+        "Heparina não fracionada, sobre HBPM",
+        "Fondaparinux, sobre HBPM",
+        "HNF em bolus isolado, sem manutenção"
+      ],
+      "correta": 0,
+      "explicacao": "A diretriz recomenda HBPM sobre heparina não fracionada (UFH) para pacientes que necessitam de anticoagulação parenteral inicial."
+    },
+    {
+      "pergunta": "Paciente com câncer de mama apresenta dispneia súbita, taquicardia e hipoxemia; a TC mostra TEP lobar bilateral, sem aumento de VD e sem elevação de troponina. É necessário suporte de oxigênio suplementar. Qual categoria melhor descreve o caso?",
+      "alternativas": [
+        "Categoria A1",
+        "Categoria B2",
+        "Categoria D1",
+        "Categoria C1R"
+      ],
+      "correta": 3,
+      "explicacao": "Esse é o exemplo da diretriz para Categoria C1R: sintomático, sem disfunção de VD ou troponina elevada, com o modificador respiratório R pela necessidade de oxigênio suplementar."
+    },
+    {
+      "pergunta": "Como a diretriz define a Categoria D1 do sistema AHA/ACC?",
+      "alternativas": [
+        "Hipotensão persistente com choque cardiogênico estabelecido",
+        "Falência cardiopulmonar com necessidade de RCP",
+        "Hipotensão transitória ou recorrente, sem sinais de hipoperfusão ou disfunção de órgão-alvo",
+        "TEP assintomático encontrado incidentalmente"
+      ],
+      "correta": 2,
+      "explicacao": "Categoria D1 identifica pacientes com hipotensão transitória ou recorrente (incluindo hipotensão relativa à basal do paciente) que responde a volume, sem sinais de hipoperfusão ou disfunção de órgão-alvo."
+    },
+    {
+      "pergunta": "Paciente no pós-operatório de cirurgia de coluna desenvolve dispneia, taquicardia e hipoxemia súbitas, com PAS normal. A TC mostra TEP bilateral em artérias pulmonares principais, com creatinina em ascensão e PAM baixa. Qual categoria melhor descreve o caso?",
+      "alternativas": [
+        "Categoria B2",
+        "Categoria C1",
+        "Categoria D2",
+        "Categoria E1"
+      ],
+      "correta": 2,
+      "explicacao": "Esse é o exemplo da diretriz para Categoria D2: hipotensão transitória acompanhada de marcador de hipoperfusão ou disfunção de órgão-alvo (aqui, lesão renal aguda e PAM baixa)."
+    },
+    {
+      "pergunta": "Pela Tabela 7 da diretriz, qual é a força de recomendação (COR) para trombólise sistêmica nas categorias A a C1?",
+      "alternativas": [
+        "3-Harm",
+        "2a",
+        "1",
+        "2b"
+      ],
+      "correta": 0,
+      "explicacao": "Nas categorias A–C1, a trombólise sistêmica é COR 3-Harm (LOE A) — não deve ser usada sobre anticoagulação isolada, pelo risco aumentado de sangramento maior e HIC."
+    },
+    {
+      "pergunta": "Paciente com pneumonia por COVID-19 em ventilação mecânica é diagnosticado com TEP em sela, apresenta hipocinesia grave de ventrículo direito ao ecocardiograma e permanece hipotenso apesar de 3 vasopressores. Qual categoria melhor descreve o caso?",
+      "alternativas": [
+        "Categoria D2R",
+        "Categoria E2R",
+        "Categoria C3R",
+        "Categoria B2R"
+      ],
+      "correta": 1,
+      "explicacao": "Esse é o exemplo da diretriz para Categoria E2R: choque cardiogênico refratário (aqui, hipotensão apesar de 3 vasopressores) com necessidade de suporte ventilatório (modificador R)."
+    },
+    {
+      "pergunta": "Segundo a diretriz, quanto tempo dura a fase de tratamento inicial da anticoagulação após um TEP agudo, antes da decisão sobre estender ou não o tratamento?",
+      "alternativas": [
+        "1 a 2 meses",
+        "6 a 12 meses",
+        "12 meses",
+        "3 a 6 meses"
+      ],
+      "correta": 3,
+      "explicacao": "A fase de tratamento inicial dura de 3 a 6 meses; ao fim desse período, decide-se sobre continuar para a fase estendida, sem data de término prevista."
+    },
+    {
+      "pergunta": "Paciente com TEP assintomático (Categoria A), achado incidental em exame de imagem, sem sintomas relacionados. Segundo a diretriz, qual conduta é recomendada?",
+      "alternativas": [
+        "Alta direto do pronto-socorro, sem necessidade de internação",
+        "Internação em UTI para monitorização",
+        "Observação hospitalar por pelo menos 24 horas",
+        "Trombólise sistêmica profilática antes da alta"
+      ],
+      "correta": 0,
+      "explicacao": "A diretriz afirma que pacientes com TEP Categoria A podem receber alta segura do pronto-socorro e não precisam ser hospitalizados."
+    },
+    {
+      "pergunta": "Para pacientes elegíveis a anticoagulação estendida além dos 3–6 meses iniciais, qual classe de anticoagulante a diretriz recomenda preferencialmente?",
+      "alternativas": [
+        "Antagonista da vitamina K (VKA), preferido sempre",
+        "Ambos (DOAC e VKA) são considerados equivalentes",
+        "Aspirina isolada, sem outro anticoagulante",
+        "DOAC, preferido sobre VKA para reduzir o risco de sangramento"
+      ],
+      "correta": 3,
+      "explicacao": "A diretriz recomenda DOAC sobre VKA na fase estendida, salvo contraindicação, para reduzir o risco de sangramento (COR 1, LOE A)."
+    },
+    {
+      "pergunta": "Paciente com TEP sintomático mas com escore de gravidade clínica baixo (Categoria B). Segundo a diretriz, qual conduta é geralmente recomendada?",
+      "alternativas": [
+        "Internação hospitalar prolongada obrigatória",
+        "Internação em UTI para monitorização",
+        "Alta hospitalar precoce",
+        "Trombectomia mecânica de rotina"
+      ],
+      "correta": 2,
+      "explicacao": "A diretriz recomenda geralmente alta hospitalar precoce para pacientes sintomáticos com escore de gravidade clínica baixo (Categoria B)."
+    },
+    {
+      "pergunta": "O que os estudos PREPIC e PREPIC2 mostraram sobre o uso de filtro de veia cava inferior?",
+      "alternativas": [
+        "Reduz a mortalidade geral de forma significativa",
+        "Reduz a recorrência de TEP, mas aumenta TVP/trombose de veia cava, sem benefício de mortalidade",
+        "Não tem nenhum efeito sobre a recorrência de TEP",
+        "É superior à anticoagulação isolada em todos os cenários"
+      ],
+      "correta": 1,
+      "explicacao": "PREPIC mostrou redução de recorrência de TEP (~50%) às custas de aumento de TVP (~70%), sem benefício de mortalidade; PREPIC2 não mostrou benefício adicional em pacientes já anticoagulados."
+    },
+    {
+      "pergunta": "Paciente teve um primeiro episódio de TEP agudo, sem nenhum fator de risco reversível identificável (TEP não provocado). Ao final da fase inicial de tratamento (3–6 meses), qual é a recomendação da diretriz quanto a continuar a anticoagulação?",
+      "alternativas": [
+        "Continuar a anticoagulação além da fase inicial é benéfico para prevenir recorrência",
+        "Suspender a anticoagulação sempre aos 3 meses, independentemente do risco",
+        "Continuar apenas se o paciente também tiver câncer ativo",
+        "Continuar apenas se o paciente tiver mais de 80 anos"
+      ],
+      "correta": 0,
+      "explicacao": "Para o primeiro TEP sem fator de risco reversível maior, a diretriz recomenda continuar a anticoagulação para a fase estendida, como benéfico para prevenir recorrência de TEV (COR 1, LOE A)."
+    },
+    {
+      "pergunta": "Qual estudo, citado na diretriz para a categoria E1, avaliou trombectomia mecânica e mostrou um desfecho composto de 17% frente a um desempenho pré-especificado de 32%?",
+      "alternativas": [
+        "FLAME",
+        "PEITHO",
+        "PEERLESS",
+        "RENOVE"
+      ],
+      "correta": 0,
+      "explicacao": "O estudo FLAME (n=115, categoria E1) mostrou desfecho composto de 17% com trombectomia mecânica, frente ao desempenho pré-especificado de 32% (p<0,01)."
+    },
+    {
+      "pergunta": "Paciente está terapeuticamente anticoagulado para tratamento de TEP agudo, sem contraindicação à anticoagulação e sem recorrência. Segundo a diretriz, deve-se colocar um filtro de veia cava inferior de rotina nesse paciente?",
+      "alternativas": [
+        "Sim, deve ser sempre associado à anticoagulação nesses casos",
+        "Não, a colocação rotineira de filtro não deve ser realizada",
+        "Apenas se o paciente estiver na categoria E",
+        "Apenas se o paciente for gestante"
+      ],
+      "correta": 1,
+      "explicacao": "A diretriz é explícita: em pacientes terapeuticamente anticoagulados, a colocação rotineira de filtro de veia cava inferior não deve ser realizada (COR 3: Harm, LOE A)."
+    },
+    {
+      "pergunta": "Segundo a diretriz, qual é a prevalência estimada de CTEPH (CTEPD com hipertensão pulmonar) após um TEP agudo?",
+      "alternativas": [
+        "~15%",
+        "~30%",
+        "~3%",
+        "~50%"
+      ],
+      "correta": 2,
+      "explicacao": "A prevalência de CTEPH após TEP agudo é de aproximadamente 3%; a prevalência de CTEPD sem hipertensão pulmonar é desconhecida, mas considerada ao menos igualmente prevalente."
+    },
+    {
+      "pergunta": "Paciente com TEP agudo não tolera anticoagulação e a equipe considera necessária a colocação de um filtro de veia cava inferior. Qual tipo de filtro a diretriz recomenda preferencialmente?",
+      "alternativas": [
+        "Filtro permanente, sempre preferido",
+        "Nenhum filtro deve ser colocado nesse cenário",
+        "Qualquer tipo, sem preferência estabelecida",
+        "Filtro recuperável, preferido sobre o permanente"
+      ],
+      "correta": 3,
+      "explicacao": "Em pacientes que não toleram anticoagulação mas necessitam de filtro, a diretriz recomenda filtro recuperável sobre permanente, para reduzir a incidência de recorrência a curto prazo e minimizar desfechos adversos a longo prazo (COR 1, LOE B-R)."
+    },
+    {
+      "pergunta": "Qual ferramenta organizacional a diretriz recomenda para melhorar a agilidade do atendimento em TEP agudo?",
+      "alternativas": [
+        "Escore de Wells isolado",
+        "PERT (Pulmonary Embolism Response Team) — time de resposta multidisciplinar",
+        "Uma UTI móvel dedicada exclusivamente a TEP",
+        "Um aplicativo de telemedicina obrigatório"
+      ],
+      "correta": 1,
+      "explicacao": "A diretriz recomenda os PERTs (Pulmonary Embolism Response Teams) para melhorar a agilidade do cuidado em TEP agudo."
+    }
+  ]
+}
