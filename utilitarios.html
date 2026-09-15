@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Utilitários — Acervo Itanhaém</title>
-<meta name="description" content="Calculadoras de escore e datas importantes da residência do Hospital Regional de Itanhaém Jorge Rossmann.">
+<meta name="description" content="Calculadoras de escore da residência do Hospital Regional de Itanhaém Jorge Rossmann.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -24,6 +24,7 @@
     <nav class="masthead-nav">
       <a href="acervo.html">Acervo</a>
       <a href="utilitarios.html" class="is-active">Utilitários</a>
+      <a href="datas.html">Datas</a>
       <a href="index.html#equipe">Equipe</a>
       <a href="index.html#sobre">Sobre</a>
     </nav>
@@ -33,38 +34,36 @@
 <main>
   <section class="section-head">
     <h1>Utilitários</h1>
-    <p class="section-note">Calculadoras de escore — clique nas opções, sem digitar nada — e datas importantes da residência.</p>
+    <p class="section-note">Calculadoras de escore — clique nas opções, sem digitar nada.</p>
   </section>
 
-  <section class="calculadora-bloco">
+  <nav class="subnav">
+    <a href="#sofa">SOFA</a>
+    <a href="#padua">PADUA</a>
+    <a href="#saps3">SAPS 3</a>
+    <a href="#improve">IMPROVE Bleeding</a>
+  </nav>
+
+  <section class="calculadora-bloco" id="sofa">
     <h2>SOFA</h2>
     <p class="section-note">Escolha a opção correspondente em cada domínio.</p>
     <div id="sofa-calc"></div>
   </section>
 
-  <section class="calculadora-bloco">
+  <section class="calculadora-bloco" id="padua">
     <h2>PADUA — risco de TEV</h2>
     <p class="section-note">Marque os itens presentes no paciente. Pontuação ≥ 4 = alto risco (indica profilaxia).</p>
     <div id="padua-calc"></div>
   </section>
 
-  <section class="calculadora-bloco calculadora-em-breve">
+  <section class="calculadora-bloco calculadora-em-breve" id="saps3">
     <h2>SAPS 3</h2>
     <p class="section-note">Em preparação — a tabela de pontos (20 variáveis em 3 blocos) precisa ser conferida contra a referência oficial antes de publicar.</p>
   </section>
 
-  <section class="calculadora-bloco calculadora-em-breve">
+  <section class="calculadora-bloco calculadora-em-breve" id="improve">
     <h2>IMPROVE Bleeding</h2>
     <p class="section-note">Em preparação — mesmo cuidado de conferência antes de publicar.</p>
-  </section>
-
-  <section class="section-head">
-    <h2>Datas importantes</h2>
-  </section>
-  <section class="archive" style="border-bottom: none;">
-    <ul class="team-list" id="lista-datas">
-      <li class="team-row"><span class="team-name">Carregando…</span></li>
-    </ul>
   </section>
 </main>
 
@@ -76,7 +75,6 @@
 <script>
   renderEscalaUnica(SOFA_DOMINIOS, document.getElementById('sofa-calc'));
   renderEscalaChecklist(PADUA_ITENS, document.getElementById('padua-calc'), 4);
-  renderizarDatas(document.getElementById('lista-datas'));
 </script>
 
 </body>

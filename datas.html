@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Acervo — Acervo Itanhaém</title>
-<meta name="description" content="Resumos de artigos e questões da residência do Hospital Regional de Itanhaém Jorge Rossmann.">
+<title>Datas importantes — Acervo Itanhaém</title>
+<meta name="description" content="Datas importantes da residência: Teste de Progresso AMIB, TEMi e virada do ano letivo.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -22,9 +22,9 @@
       </span>
     </a>
     <nav class="masthead-nav">
-      <a href="acervo.html" class="is-active">Acervo</a>
+      <a href="acervo.html">Acervo</a>
       <a href="utilitarios.html">Utilitários</a>
-      <a href="datas.html">Datas</a>
+      <a href="datas.html" class="is-active">Datas</a>
       <a href="index.html#equipe">Equipe</a>
       <a href="index.html#sobre">Sobre</a>
     </nav>
@@ -33,12 +33,12 @@
 
 <main>
   <section class="section-head">
-    <h1>Acervo de artigos</h1>
-    <p class="section-note">Resumos feitos pelos próprios residentes, cada um com cinco questões para revisão.</p>
+    <h1>Datas importantes</h1>
+    <p class="section-note">Provas, prazos e a virada do ano letivo da residência.</p>
   </section>
 
-  <section class="archive">
-    <ul class="team-list acervo-list" id="lista-acervo">
+  <section class="archive" style="border-bottom: none;">
+    <ul class="team-list" id="lista-datas">
       <li class="team-row"><span class="team-name">Carregando…</span></li>
     </ul>
   </section>
@@ -48,14 +48,9 @@
   <p>Hospital Regional de Itanhaém "Jorge Rossmann" — Itanhaém, SP</p>
 </footer>
 
-<script src="assets/site.js"></script>
+<script src="assets/calculadoras.js"></script>
 <script>
-  carregarManifesto()
-    .then(itens => renderizarLista(itens, document.getElementById('lista-acervo')))
-    .catch(() => {
-      document.getElementById('lista-acervo').innerHTML =
-        '<li class="team-row"><span class="team-name">Não foi possível carregar o acervo agora.</span></li>';
-    });
+  renderizarDatas(document.getElementById('lista-datas'));
 </script>
 
 </body>
