@@ -374,6 +374,21 @@ main { max-width: 700px; margin: 0 auto; padding: 0 24px; }
   color: var(--ink);
 }
 
+.team-person {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.team-photo {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 22%;
+  flex-shrink: 0;
+}
+
 .team-role {
   font-size: 0.85rem;
   color: var(--slate);
