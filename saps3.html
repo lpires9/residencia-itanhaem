@@ -48,7 +48,14 @@
 
 <script src="assets/calculadoras.js"></script>
 <script>
-  renderEscalaComposta({ grupos: SAPS3_GRUPOS, itens: SAPS3_COMORBIDADES, offset: SAPS3_OFFSET }, document.getElementById('saps3-calc'));
+  renderEscalaComposta({
+    grupos: SAPS3_GRUPOS,
+    checklists: [
+      { titulo: 'Motivo da admissão — demais itens (independentes entre si)', itens: SAPS3_MOTIVOS_ADICIONAIS },
+      { titulo: 'Comorbidades', itens: SAPS3_COMORBIDADES }
+    ],
+    offset: SAPS3_OFFSET
+  }, document.getElementById('saps3-calc'));
 </script>
 
 </body>
