@@ -108,19 +108,10 @@ const SAPS3_GRUPOS = [
   { secao: "Box II — circunstâncias da admissão", nome: "Infecção na admissão", opcoes: [
     { pontos: 0, texto: "Nenhuma" }, { pontos: 4, texto: "Nosocomial" }, { pontos: 5, texto: "Respiratória" }
   ]},
-  { secao: "Box II — circunstâncias da admissão", nome: "Motivo da admissão", opcoes: [
-    { pontos: 0, texto: "Nenhum dos abaixo" },
+  { secao: "Box II — circunstâncias da admissão", nome: "Motivo da admissão: distúrbio do ritmo ou crise convulsiva", opcoes: [
+    { pontos: 0, texto: "Nenhum dos dois" },
     { pontos: -5, texto: "Cardiovascular: distúrbio do ritmo" },
-    { pontos: -4, texto: "Neurológico: crise convulsiva" },
-    { pontos: 3, texto: "Cardiovascular: choque hipovolêmico (hemorrágico ou não)" },
-    { pontos: 5, texto: "Cardiovascular: choque séptico" },
-    { pontos: 5, texto: "Cardiovascular: choque anafilático, misto ou indefinido" },
-    { pontos: 4, texto: "Neurológico: coma, torpor, confusão, agitação ou delirium" },
-    { pontos: 7, texto: "Neurológico: déficit focal" },
-    { pontos: 10, texto: "Neurológico: efeito de massa intracraniana" },
-    { pontos: 3, texto: "Digestivo: abdome agudo, outro" },
-    { pontos: 9, texto: "Digestivo: pancreatite grave" },
-    { pontos: 6, texto: "Hepático: insuficiência hepática" }
+    { pontos: -4, texto: "Neurológico: crise convulsiva" }
   ]},
   { secao: "Box III — fisiologia na 1ª hora da UTI", nome: "Glasgow (menor valor)", opcoes: [
     { pontos: 0, texto: "≥ 13" }, { pontos: 2, texto: "7 – 12" }, { pontos: 7, texto: "6" }, { pontos: 10, texto: "5" }, { pontos: 15, texto: "3 – 4" }
@@ -155,6 +146,18 @@ const SAPS3_GRUPOS = [
     { pontos: 7, texto: "PaO₂/FiO₂ ≥ 100 com ventilação mecânica" },
     { pontos: 11, texto: "PaO₂/FiO₂ < 100 com ventilação mecânica" }
   ]}
+];
+
+const SAPS3_MOTIVOS_ADICIONAIS = [
+  { texto: "Cardiovascular: choque hipovolêmico (hemorrágico ou não)", pontos: 3 },
+  { texto: "Digestivo: abdome agudo, outro", pontos: 3 },
+  { texto: "Neurológico: coma, torpor, confusão, agitação ou delirium", pontos: 4 },
+  { texto: "Cardiovascular: choque séptico", pontos: 5 },
+  { texto: "Cardiovascular: choque anafilático, misto ou indefinido", pontos: 5 },
+  { texto: "Hepático: insuficiência hepática", pontos: 6 },
+  { texto: "Neurológico: déficit focal", pontos: 7 },
+  { texto: "Digestivo: pancreatite grave", pontos: 9 },
+  { texto: "Neurológico: efeito de massa intracraniana", pontos: 10 }
 ];
 
 const SAPS3_COMORBIDADES = [
@@ -254,10 +257,11 @@ function renderEscalaChecklist(itens, container, cortePontos) {
   });
 }
 
-// Escala composta: grupos de seleção única + checklist opcional, com seções e offset fixo
+// Escala composta: grupos de seleção única + um ou mais checklists nomeados, com seções e offset fixo
 function renderEscalaComposta(config, container) {
   const grupos = config.grupos || [];
-  const itens = config.itens || [];
+  // aceita tanto `itens` (checklist único, legado) quanto `checklists` (vários blocos nomeados)
+  const checklists = config.checklists || (config.itens ? [{ titulo: 'Comorbidades / fatores adicionais', itens: config.itens }] : []);
   const offset = config.offset || 0;
   const corte = config.corte || null;
 
@@ -279,15 +283,15 @@ function renderEscalaComposta(config, container) {
       </div>`;
   });
 
-  if (itens.length) {
-    html += `<p class="escala-secao">Comorbidades / fatores adicionais</p>`;
-    html += itens.map((item, i) => `
-      <button type="button" class="escala-item" data-pontos="${item.pontos}" data-ativo="false" data-item="${i}">
+  checklists.forEach((bloco, bi) => {
+    html += `<p class="escala-secao">${bloco.titulo}</p>`;
+    html += bloco.itens.map((item, i) => `
+      <button type="button" class="escala-item" data-pontos="${item.pontos}" data-ativo="false" data-bloco="${bi}" data-item="${i}">
         <span class="escala-item-texto">${item.texto}</span>
         <span class="escala-item-pontos">${item.pontos} pt${item.pontos > 1 ? 's' : ''}</span>
       </button>
     `).join('');
-  }
+  });
 
   html += `<p class="escala-total">Pontuação total: <strong><span id="total-${container.id}">${offset}</span></strong>${offset ? ` <span class="escala-offset">(inclui offset fixo de ${offset})</span>` : ''}${corte ? ` — <span id="risco-${container.id}"></span>` : ''}</p>`;
 
